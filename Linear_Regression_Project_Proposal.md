@@ -18,29 +18,27 @@ Using web scraping to get the movie dataset from public websites:
 
 Preliminary Data Explorations –
 
-Clean the scraped movie dataset
+Clean the scraped movie dataset. Transform the categorical variables using dummy variables (1 hot encoding).
 
-Transform the categorical variables using dummy variables (1 hot encoding).
 Target (y) is Movie revenue that we want to predict
+
 Features (x) for the regression
+
 Features for the regression:
 1.	Movie Name
 2.	Budget
 3.	No of Theatres
-4.	Weekly Gross Revenue
-5.	Dates (week wise)
-6.	Weekend Revenue
-7.	Percent change last week
-8.	Percent change overall last weel
-9.	Number of releases (weekly)
-10.	Rank
-11.	IMDB Rating
-12.	Rotten Tomatoes Rating
-13.	Movie Duration
-14.	Release date
-15.	MPAA Rating (G, G/PG, R, etc.)
-16.	Genre (Comedy, Thriller, Romance, etc.)
-17.	Special Days (eg – holidays / long weekends)
+4.	Total Gross Revenue
+5.	Number of releases
+6.	Highest Rank attained
+7.	IMDB Rating
+8.	Rotten Tomatoes Rating
+9.	Movie Duration
+10.	Release day
+11.	Release month
+12.	MPAA Rating (G, G/PG, R, etc.)
+13.	Genre (Comedy, Thriller, Romance, etc.)
+14.	Special Days (eg – holidays / long weekends)
 
 Out of the total data set, I will randomly divide it into 2 buckets –
 1.	Training Data (80%)
@@ -70,4 +68,5 @@ Python packages for Linear Regression –
 
 
 ## MVP Goal:
-Have a web scraped, cleaned with some preliminary analysis on the movie data set ready.
+1. Have a web scraped, cleaned with some preliminary analysis on the movie data set ready.
+2. Visualizations of initially built regression model.
