@@ -70,4 +70,4 @@ Python packages for Linear Regression –
 
 
 ## MVP Goal:
-### Have a web scraped, cleaned with some preliminary analysis on the movie data set ready.
+Have a web scraped, cleaned with some preliminary analysis on the movie data set ready.
