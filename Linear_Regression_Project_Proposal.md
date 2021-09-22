@@ -1,17 +1,19 @@
 #Project Proposal
 ##Predict Movie Revenue using Linear Regression
 
-###Purpose:
+##Purpose:
 Gather movie dataset scraped from imdb.com / boxofficemojo.com and build linear regression model to predict the movie revenue.
 
-###Goal:
+##Goal:
 Predict the movie revenue
 
-###Data Description:
+##Data Description:
 
 Using web scraping to get the movie dataset from public websites:
+
 •	[boxofficemojo dataset](https://www.boxofficemojo.com/)
-• [imdb dataset] (https://www.imdb.com/)
+
+• [imdb dataset](https://www.imdb.com/)
 
 Preliminary Data Explorations –
 
@@ -45,13 +47,13 @@ Out of the total data set, I will randomly divide it into 2 buckets –
 
 I will use this training data to train the model and build linear regression on.
 
-###Assumptions –
+##Assumptions –
 1.	The residuals (errors) form a Normal Distribution
 2.	Linearity: The relationship between the features X and the target of Y is linear
 3.	No Correlation
 4.	No Multicollinearity
 
-###Tools:
+##Tools:
 
 Web Scraping tools –
 1.	Beautiful Soup
@@ -66,5 +68,5 @@ Python packages for Linear Regression –
 4.	matplotlib and seaborn – data visualization
 
 
-###MVP Goal:
+##MVP Goal:
 Have a web scraped, cleaned with some preliminary analysis on the movie data set ready.
