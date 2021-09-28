@@ -46,16 +46,13 @@ II. Divided the entire movie dataset into:
 
 Here are some of the helpful plots
 
-[Feature_vs_Target_pairPlot]
+![Feature_vs_Target_pairPlot](https://github.com/chetana-vyas/Linear_Regression/blob/project-proposal/Images/PairPlot_Target_vs_Feature.png)
 
 
-[Plot_predicted_revenue_vs_actual_revenue]
-
+![Plot_predicted_revenue_vs_actual_revenue](https://github.com/chetana-vyas/Linear_Regression/blob/project-proposal/Images/Plot-Fitted_vs_Actual_TestSet.png)
 
 All the following modelling in done on the Training dataset
 
 1. Built a Linear Regression model
 
 The model shows that movie budget is related to the movie box office total domestic revenue.
-
-
