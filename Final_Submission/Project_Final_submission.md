@@ -27,10 +27,13 @@ Target (Y): Domestic_total_revenue
 Features (X):
 1. Budget
 2. Release Year
-3. Rank_overall
-4. Rank_by_mpaa_rating
-5. Runtime
-6. Rating
+3. Release Month
+4. Rank_overall (cannot use rank as it is used to calculate Revenue)
+5. Rank_by_mpaa_rating  (cannot use rank as it is used to calculate Revenue)
+6. Opening Gross (cannot use rank as it is used to calculate Revenue)
+7. Runtime
+8. Rating
+9. Movie Genres
 
 I have done the initial data cleaning and exploratory analysis on this movie dataset
 
