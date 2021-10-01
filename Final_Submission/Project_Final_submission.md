@@ -5,8 +5,11 @@
 
 ### Purpose:
 
-Build linear regression model to predict the movie revenue using the [boxofficemojo movie dataset](https://www.boxofficemojo.com/) and understand the driving parameters
+We will always have super high budget movies that are box office bombs!
 
+Low Budget Films that became Blockbuster hits!
+
+Build linear regression model to predict the movie revenue using the [boxofficemojo movie dataset](https://www.boxofficemojo.com/) and help the Movie Producers to understand the target movies to invest in.
 
 ### Target Clients:
 Movie producers, directors, investors would be heavily benefitted by this revenue prediction model
@@ -93,11 +96,19 @@ Blockbuster release
 
 Here are some of the helpful plots
 
-Feature_vs_Target_pairPlot
+## Feature_vs_Target_pairPlot
 ![](https://github.com/chetana-vyas/Linear_Regression/blob/project-proposal/Images/PairPlot_Target_vs_Feature.png)
 
-Plot_predicted_revenue_vs_actual_revenue
+## Coefficients of Features
+![](https://github.com/chetana-vyas/Linear_Regression/blob/project-proposal/Images/chart.png)
+
+### Diagnostic Plots
+
+## Plot_predicted_revenue_vs_actual_revenue for Train Set
+![](https://github.com/chetana-vyas/Linear_Regression/blob/project-proposal/Images/Plot-Fitted_vs_Actual_movie_revenue_TrainSet.png)
+
+## Plot_predicted_revenue_vs_actual_revenue for Test Set
 ![](https://github.com/chetana-vyas/Linear_Regression/blob/project-proposal/Images/Plot-Fitted_vs_Actual_TestSet.png)
 
-Coefficients of Features
-![](url)
+## Understanding of the Residuals
+![](https://github.com/chetana-vyas/Linear_Regression/blob/project-proposal/Images/residuals.PNG)
