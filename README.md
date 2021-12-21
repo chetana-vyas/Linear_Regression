@@ -58,8 +58,8 @@ III. Divide the entire movie dataset into:
     2. Holdout set i.e. Test dataset (20%)
 
 IV. Performed Linear Regression
-TRAIN R^2 SCORE: 0.331
-TEST R^2 SCORE: 0.337
+* TRAIN R^2 SCORE: 0.331
+* TEST R^2 SCORE: 0.337
 
 
 ## Improving the Model
@@ -68,11 +68,11 @@ TEST R^2 SCORE: 0.337
 
 V. LASSO Regularization
 
-Optimal alpha is: 0.00066
-RMSE ERROR IS: 65106880.94
-R^2 WITH LASSO IS: 0.4145
-RMSE ERROR ON TEST DATA IS: 65725821.63
-R^2 WITH LASSO ON TEST DATA IS: 0.4045
+* Optimal alpha is: 0.00066
+* RMSE ERROR IS: 65106880.94
+* R^2 WITH LASSO IS: 0.4145
+* RMSE ERROR ON TEST DATA IS: 65725821.63
+* R^2 WITH LASSO ON TEST DATA IS: 0.4045
 
 
 ### Recommendations:
